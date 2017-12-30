@@ -2,7 +2,7 @@
 lock '~> 3.10.1'
 
 set :application, 'pushkin'
-set :repo_url, 'git@github.com:artser97/pushkin-contest-bot.git'
+set :repo_url, 'git@github.com:artser97/pushkin-bot-contest.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
