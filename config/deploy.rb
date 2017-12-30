@@ -1,14 +1,14 @@
 # config valid for current version and patch releases of Capistrano
 lock '~> 3.10.1'
 
-set :application, 'pushkin'
-set :repo_url, 'git@github.com:artser97/pushkin-bot-contest.git'
+set :application, 'pushkin-contest-bot'
+set :repo_url, 'git@github.com:artser97/pushkin-contest-bot.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/var/www/pushkin/'
+set :deploy_to, '/home/deploy/pushkin-contest-bot/'
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
