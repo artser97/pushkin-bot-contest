@@ -5,7 +5,7 @@ set :unicorn_env, 'production'
 set :puma_threads, [4, 12]
 set :puma_workers, 2
 
-server '92.53.91.99', user: 'deployer', roles: %w{app web db sidekiq}
+server '92.53.91.82', user: 'deployer', roles: %w{app web db sidekiq}
 
 
 # server-based syntax
