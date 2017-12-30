@@ -1,0 +1,22 @@
+<div>
+  <table>
+    <thead>
+    <th>Question</th>
+    <th>Level</th>
+    <th>Task id</th>
+    <th>Answer</th>
+    </thead>
+    <tbody>
+    <% if $tasks %>
+      <% $tasks.each do |task| %>
+        <tr>
+          <td><%= task.question %></td>
+          <td><%= task.level %></td>
+          <td><%= task.task_id %></td>
+          <td><%= task.answer %></td>
+        </tr>
+      <% end %>
+    <% end %>
+    </tbody>
+  </table>
+</div>
